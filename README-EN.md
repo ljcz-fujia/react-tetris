@@ -241,6 +241,12 @@ npm run build
 ```
 
 Will build the application in the build folder.
-
+### Docker install
+```
+1、git clone https://github.com/chvin/react-tetris.git && cd react-tetris
+2、docker build -t tetris:latest .
+3、docker run -d --name tetris -p 8090:80 tetris:latest
+4、Open the url in your web browser: http://ip:8090
+```
 
 
