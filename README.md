@@ -237,6 +237,12 @@ npm run build
 ```
 
 在build文件夹下生成结果。
-
+### Docker安装
+```
+1、git clone https://github.com/chvin/react-tetris.git && cd react-tetris
+2、docker build -t tetris:latest .
+3、docker run -d --name tetris -p 8090:80 tetris:latest
+4、浏览器访问http://ip:8090
+```
 
 
